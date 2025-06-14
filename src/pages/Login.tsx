@@ -85,7 +85,7 @@ export default function Login() {
         <div>
           <Link to="/" className="flex items-center justify-center space-x-3 mb-8">
             <img 
-              src="/src/assets/download.svg" 
+              src="../assets/download.svg" 
               alt="Thrivo Logo" 
               className="w-12 h-12"
             />
