@@ -82,18 +82,7 @@ export default function Login() {
         transition={{ duration: 0.8 }}
         className="max-w-md w-full space-y-8"
       >
-        <div>
-          <Link to="/" className="flex items-center justify-center space-x-3 mb-8">
-            <img 
-              src="download.svg" 
-              alt="Thrivo Logo" 
-              className="w-12 h-12"
-            />
-            <div className="text-center">
-              <span className="text-2xl font-bold text-gray-900">Thrivo</span>
-              <p className="text-sm text-orange-600 font-medium">Choices that shape legends</p>
-            </div>
-          </Link>
+       
           
           {message && (
             <div className="bg-blue-50 border border-blue-200 text-blue-700 px-4 py-3 rounded-md text-sm text-center mb-4">
