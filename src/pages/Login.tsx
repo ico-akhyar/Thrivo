@@ -82,7 +82,7 @@ export default function Login() {
         transition={{ duration: 0.8 }}
         className="max-w-md w-full space-y-8"
       >
-       
+      
           
           {message && (
             <div className="bg-blue-50 border border-blue-200 text-blue-700 px-4 py-3 rounded-md text-sm text-center mb-4">
